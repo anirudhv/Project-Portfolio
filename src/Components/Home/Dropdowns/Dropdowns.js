@@ -11,7 +11,7 @@ const Dropdowns = (props) => {
 	const [sort, setSort] = useState('');
 	const [category, setCategory] = useState([]);
 	const categories = props.data.map(proj => proj.category);
-	const uniqueCategories = [... new Set(categories)];
+	const uniqueCategories = [...new Set(categories)];
 	const ITEM_HEIGHT = 48;
 	const ITEM_PADDING_TOP = 8;
 	const MenuProps = {
