@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -8,8 +8,6 @@ import OutlinedInput from '@mui/material/OutlinedInput';
 import Chip from '@mui/material/Chip';
 
 const Dropdowns = (props) => {
-	const [sort, setSort] = useState('');
-	const [category, setCategory] = useState([]);
 	const categories = props.data.map(proj => proj.category);
 	const uniqueCategories = [...new Set(categories)];
 	const ITEM_HEIGHT = 48;
@@ -22,16 +20,6 @@ const Dropdowns = (props) => {
 	    },
 	  },
 	};
-	const onSortChange = (event) => {
-		setSort(event.target.value);
-	}
-	const onCategoryChange = (event) => {
-		setCategory(event.target.value);
-	}
-	const onCategoryDelete = (event, val) => {
-		setCategory(category.filter(cat => cat !== val));
-		console.log(val);
-	}
 	return (
 		<>
 			<FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
@@ -39,8 +27,8 @@ const Dropdowns = (props) => {
 		        <Select
 		          labelId="demo-simple-select-standard-label"
 		          id="demo-simple-select-standard"
-		          value={sort}
-		          onChange={onSortChange}
+		          value={props.sort}
+		          onChange={props.changeSort}
 		          label="Age"
 		        >
 		        	<MenuItem value="">-</MenuItem>
@@ -57,8 +45,8 @@ const Dropdowns = (props) => {
 		          labelId="multiple-chip-label"
 		          id="multiple-chip"
 		          multiple
-		          value={category}
-		          onChange={onCategoryChange}
+		          value={props.category}
+		          onChange={props.changeCategory}
 		          input={<OutlinedInput id="select-multiple-chip" label="Filter by Category" />}
 		          renderValue={(selected) => (
 		            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
@@ -69,7 +57,7 @@ const Dropdowns = (props) => {
 		                onMouseDown={(event) => {
 		                	event.stopPropagation();
 		                }}
-		                onDelete={(e) => onCategoryDelete(e, value)}
+		                onDelete={(e) => props.deleteCategory(e, value)}
 		                 />
 		              ))}
 		            </Box>

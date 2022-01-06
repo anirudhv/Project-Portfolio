@@ -11,11 +11,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Header = () => (
 	<>
-		<Typography variant = "h2" gutterBottom component = "div">
+		<Typography variant = "h2" component = "div">
 			Anirudh Venkataramanan
-		</Typography>
-		<Typography variant = "h4" gutterBottom component = "div">
-			Project Portfolio
 		</Typography>
      	<ButtonGroup variant = "text" aria-label = "text button group">
 	        <Button><LinkedInIcon color = "action" fontSize = "large" /></Button>
@@ -25,6 +22,9 @@ const Header = () => (
 	        <Button><FilePresentIcon color = "action" fontSize = "large" /></Button>
 	        <Button><WebIcon color = "action" fontSize = "large" /></Button>
      	</ButtonGroup>
+		<Typography variant = "h4" gutterBottom component = "div">
+			Project Portfolio
+		</Typography>
 	</>
 );
 
