@@ -15,12 +15,12 @@ const Header = () => (
 			Anirudh Venkataramanan
 		</Typography>
      	<ButtonGroup variant = "text" aria-label = "text button group">
-	        <Button><LinkedInIcon color = "action" fontSize = "large" /></Button>
-	        <Button><TwitterIcon color = "action" fontSize = "large" /></Button>
-	        <Button><GitHubIcon color = "action" fontSize = "large" /></Button>
-	        <Button><EmailIcon color = "action" fontSize = "large" /></Button>
-	        <Button><FilePresentIcon color = "action" fontSize = "large" /></Button>
-	        <Button><WebIcon color = "action" fontSize = "large" /></Button>
+	        <Button target="_blank" href = "https://www.linkedin.com/in/anirudhvenkataramanan/"><LinkedInIcon color = "action" fontSize = "large" /></Button>
+	        <Button target="_blank" href = "https://twitter.com/anirudhvenky"><TwitterIcon color = "action" fontSize = "large" /></Button>
+	        <Button target="_blank" href = "https://github.com/anirudhv"><GitHubIcon color = "action" fontSize = "large" /></Button>
+	        <Button target="_blank" href = "mailto:anirudhv@purdue.edu"><EmailIcon color = "action" fontSize = "large" /></Button>
+	        <Button target="_blank" href = "Anirudh_Resume.pdf"><FilePresentIcon color = "action" fontSize = "large" /></Button>
+	        <Button target="_blank" href = "https://anirudh.netlify.com"><WebIcon color = "action" fontSize = "large" /></Button>
      	</ButtonGroup>
 		<Typography variant = "h4" gutterBottom component = "div">
 			Project Portfolio
