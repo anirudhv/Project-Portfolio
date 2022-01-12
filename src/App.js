@@ -12,6 +12,8 @@ import MentalHealth from './Components/Projects/MentalHealth';
 import UXResearch from './Components/Projects/UXResearch';
 import TornadoSimulation from './Components/Projects/TornadoSimulation';
 import {Routes, Route} from 'react-router-dom';
+import Footer from 'rjs-sticky-footer/Footer';
+import FooterBody from './Components/Footer/FooterBody';
 
 const App = () => {
   const projectList = [{
@@ -39,7 +41,7 @@ const App = () => {
       image: "tableauvisualizations.jpg",
       category: "Interpretive",
       component: TableauVisualizations,
-      description: "Showcase of three data visualizations made with Tableau."
+      description: "Showcase of two data visualizations made with Tableau."
     },
     {
       name: "Memory Chef",
@@ -105,9 +107,15 @@ const App = () => {
         {projectList.map(project => {
           const RenderThis = project.component;
           return (
-          <Route exact path = {project.url} element = {<RenderThis name = {project.name} category = {project.category} />} />
+          <Route exact path = {project.url} key = {project.id} element = {<RenderThis name = {project.name} category = {project.category} />} />
           )})}
       </Routes>
+      <Footer
+  background={'black'}
+  opacity={1}
+  footerBody={<FooterBody/>}
+  isSticky={true}
+/>
     </div>
   );
 }

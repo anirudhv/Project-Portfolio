@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 
 const TableauVisualizations = (props) => (
 	<>
-		<Typography variant = "h2" gutterBottom component = "div">
+		<Typography variant = "h4" gutterBottom component = "div">
 			{props.name} 
 		</Typography>
 		<Typography variant = "h5" gutterBottom component = "div">
@@ -21,7 +21,7 @@ const TableauVisualizations = (props) => (
 		<hr />
 		<br />
 		<div>
-				<img src = "ShippingDashboard.jpg" width = "75%" />
+				<img src = "ShippingDashboard.jpg" alt = "Shipping Dashboard" width = "75%" />
 			<Typography variant = "body2" gutterBottom component = "div" align = "left" style = {{margin: "10px"}}>
 				The visualization above – Shipping Dashboard – is a dashboard. A dashboard showcases numerous visualizations along with other media, 
 				such as text and images, together. Shipping Dashboard presents three visualizations in the same frame. The visualizations Running Total Shipping Costs
@@ -31,7 +31,7 @@ const TableauVisualizations = (props) => (
 				 standalone visualizations as users will not need to go back and forth between different visualization views. This visualization also does a great job 
 				 of showing all the different visualizations in the dashboard clearly without any one of them being crammed. 
 			</Typography>
-			<img src = "WebpageManipulation.jpg" width = "75%" />
+			<img src = "WebpageManipulation.jpg" alt = "Webpage Manipulation" width = "75%" />
 			<Typography variant = "body2" gutterBottom component = "div" align = "left" style = {{margin: "10px"}}>
 				The visualization above with the Wikipedia page is also a dashboard. Selecting a state from the top-left bar graph will automatically update the map on the top-right visualization. 
 				When a city in the top right visualization of the dashboard is clicked, the Wikipedia page will update to the page of the newly selected city. While the visualization below shows different Wikipedia pages, 

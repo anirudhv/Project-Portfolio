@@ -8,7 +8,7 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 
 const LocationTracker = (props) => (
 	<>
-		<Typography variant = "h2" gutterBottom component = "div">
+		<Typography variant = "h4" gutterBottom component = "div">
 			{props.name} 
 		</Typography>
 		<Typography variant = "h5" gutterBottom component = "div">
@@ -28,14 +28,14 @@ const LocationTracker = (props) => (
 		<br /><br />
 		Check out the demo video below to see the Location Tracker app in action.
 		<br /><br />
-		If you own an Android device, you can install the app APK file to use the app yourself.
+		If you own an Android device, you can install the APK file on your device to use the app yourself.
 		<br /><br />
 		</Typography>
 		<hr />
 		<br />
 		<div>
-			<ButtonGroup href = "LocationTracker.apk" variant="contained" aria-label="outlined primary button group">
-				<Button variant="contained" endIcon={<FileDownloadIcon />}>
+			<ButtonGroup variant="contained" aria-label="outlined primary button group">
+				<Button href = "LocationTracker.apk" download variant="contained" endIcon={<FileDownloadIcon />}>
 					Download Location Tracker APK File
 				</Button>
 				<Button href = "https://youtu.be/y6vNZhB5uoI" target = "_blank"variant="contained" endIcon={<YouTubeIcon />}>

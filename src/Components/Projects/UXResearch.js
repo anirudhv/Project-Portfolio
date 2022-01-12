@@ -6,7 +6,7 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 const UXResearch = (props) => (
 	<>
-		<Typography variant = "h2" gutterBottom component = "div">
+		<Typography variant = "h4" gutterBottom component = "div">
 			{props.name} 
 		</Typography>
 		<Typography variant = "h5" gutterBottom component = "div">
@@ -17,7 +17,7 @@ const UXResearch = (props) => (
 		About the Project
 		</Typography>
 		<Typography variant = "body1" gutterBottom component = "div" align = "left" style = {{margin: "10px"}}>
-			During the Fall 2020 semester of my undergrad at Purdue University, I took a User Experience Design class.
+			During the Fall 2021 semester of my undergrad at Purdue University, I took a User Experience Design class.
 			I worked with a team to redesign Craigslist's outdated user interface to help better serve the needs of our
 			persona, a female college student looking to buy affordable and fashionable clothes. We performed a lot of research
 			by analyzing other online eCommerce platforms (such as eBay and Facebook Marketplace) and figuring out what aspects of the outdated
@@ -27,7 +27,7 @@ const UXResearch = (props) => (
 			design and our updated version and used this information to conclude on how can improve our
 			Craigslist redesign further.
 			<br /><br />
-			As a part of this project, we created both a document (Google Docs) and presentation (Google Slides).
+			As a part of this project, we documented our research and design process (Google Docs) and created a presentation (Google Slides).
 			You can access them both below. Note that although the documentation is 80 pages long, you can use the
 			Table of Contents to easily switch to the section you are interested in reading about.   
 			<br /><br />

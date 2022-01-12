@@ -6,7 +6,7 @@ import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
 const MentalHealth = (props) => (
 	<>
-		<Typography variant = "h2" gutterBottom component = "div">
+		<Typography variant = "h4" gutterBottom component = "div">
 			{props.name} 
 		</Typography>
 		<Typography variant = "h5" gutterBottom component = "div">
@@ -18,7 +18,7 @@ const MentalHealth = (props) => (
 		</Typography>
 		<Typography variant = "body1" gutterBottom component = "div" align = "left" style = {{margin: "10px"}}>
 		I care a lot about the mental health of my friends, family and myself. I recently wrote a research
-		white paper that discusses the issues with Purdue University's mental health resources and potential ways it can be improved.
+		white paper that discusses the issues with Purdue University's mental health resources and potential solutions to improve them.
 		</Typography>
 		<hr />
 		<br />

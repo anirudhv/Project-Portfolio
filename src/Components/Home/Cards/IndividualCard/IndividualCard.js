@@ -10,7 +10,6 @@ const IndividualCard = (props) => {
 	let navigate = useNavigate();
 	const doOnClick = (url) => {
 		navigate(url);
-		console.log("Hello guys");
 	} 
 	return (
 		<div style = {{flexGrow: 1, justifyContent: 'center'}} onClick = {()=> doOnClick(props.url) }>

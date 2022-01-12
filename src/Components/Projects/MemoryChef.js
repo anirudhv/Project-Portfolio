@@ -8,7 +8,7 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 
 const MemoryChef = (props) => (
 	<>
-		<Typography variant = "h2" gutterBottom component = "div">
+		<Typography variant = "h4" gutterBottom component = "div">
 			{props.name} 
 		</Typography>
 		<Typography variant = "h5" gutterBottom component = "div">
@@ -34,7 +34,7 @@ const MemoryChef = (props) => (
 		<br />
 		<div>
 			<ButtonGroup variant="contained" aria-label="outlined primary button group">
-				<Button href = "MemoryChef.exe" variant="contained" endIcon={<FileDownloadIcon />}>
+				<Button href = "MemoryChef.exe" download variant="contained" endIcon={<FileDownloadIcon />}>
 					Download Memory Chef Game 
 				</Button>
 				<Button href = "https://www.youtube.com/watch?v=MDw_2g2r36M" target = "_blank" variant="contained" endIcon={<YouTubeIcon />}>

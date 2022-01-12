@@ -11,7 +11,14 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Header = () => (
 	<>
-		<Typography variant = "h2" component = "div" onClick = {()=> {}}>
+		<Typography  sx={{
+    fontSize: {
+      lg: 65,
+      md: 60,
+      sm: 55,
+      xs: 40
+    }
+  }} variant = "h2" component = "div">
 			Anirudh Venkataramanan
 		</Typography>
      	<ButtonGroup variant = "text" aria-label = "text button group">
@@ -25,6 +32,7 @@ const Header = () => (
 		<Typography variant = "h4" gutterBottom component = "div">
 			Project Portfolio
 		</Typography>
+		<hr />
 	</>
 );
 

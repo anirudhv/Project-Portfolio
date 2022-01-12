@@ -6,7 +6,7 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 const ZamioculcasZamiifolia = (props) => (
 	<>
-		<Typography variant = "h2" gutterBottom component = "div">
+		<Typography variant = "h4" gutterBottom component = "div">
 			{props.name} 
 		</Typography>
 		<Typography variant = "h5" gutterBottom component = "div">
@@ -38,7 +38,7 @@ const ZamioculcasZamiifolia = (props) => (
 				</Button>
 			</ButtonGroup>
 			<br /><br />
-			<img src = "references.jpg" width = "75%" />
+			<img src = "references.jpg" alt = "3D Model References" width = "75%" />
 			<Typography variant = "captionText" gutterBottom component = "div" align = "center" style = {{margin: "10px"}}>
 				References for 3D Model
 			</Typography>
