@@ -4,10 +4,16 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import {useNavigate} from 'react-router-dom';
 
 const IndividualCard = (props) => {
+	let navigate = useNavigate();
+	const doOnClick = (url) => {
+		navigate(url);
+		console.log("Hello guys");
+	} 
 	return (
-		<div style = {{flexGrow: 1, justifyContent: 'center'}}>
+		<div style = {{flexGrow: 1, justifyContent: 'center'}} onClick = {()=> doOnClick(props.url) }>
 		<Card sx={{ width: 300 }}>
 	      	<CardActionArea>
 	        <CardMedia

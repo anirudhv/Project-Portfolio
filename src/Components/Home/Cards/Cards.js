@@ -15,6 +15,7 @@ const Cards = (props)=> {
 						name = {project.name}
 						category = {project.category}
 						description = {project.description}
+						url = {project.url}
 						/>
 						</div>
 				
