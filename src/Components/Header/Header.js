@@ -25,7 +25,7 @@ const Header = () => (
 	        <Button target="_blank" href = "https://www.linkedin.com/in/anirudhvenkataramanan/"><LinkedInIcon color = "action" fontSize = "large" /></Button>
 	        <Button target="_blank" href = "https://twitter.com/anirudhvenky"><TwitterIcon color = "action" fontSize = "large" /></Button>
 	        <Button target="_blank" href = "https://github.com/anirudhv"><GitHubIcon color = "action" fontSize = "large" /></Button>
-	        <Button target="_blank" href = "mailto:anirudhv@purdue.edu"><EmailIcon color = "action" fontSize = "large" /></Button>
+	        <Button target="_blank" href = "mailto:anirudh.venky@gmail.com"><EmailIcon color = "action" fontSize = "large" /></Button>
 	        <Button target="_blank" href = "Anirudh_Resume.pdf"><FilePresentIcon color = "action" fontSize = "large" /></Button>
 	        <Button target="_blank" href = "https://anirudh.netlify.com"><WebIcon color = "action" fontSize = "large" /></Button>
      	</ButtonGroup>
