@@ -2,15 +2,11 @@ import React from 'react';
 import './App.css';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
-import BadFellas from './Components/Projects/BadFellas';
 import CulinaryClicks from './Components/Projects/CulinaryClicks';
 import LocationTracker from './Components/Projects/LocationTracker';
-import TableauVisualizations from './Components/Projects/TableauVisualizations';
 import ZamioculcasZamiifolia from './Components/Projects/ZamioculcasZamiifolia';
 import MemoryChef from './Components/Projects/MemoryChef';
-import MentalHealth from './Components/Projects/MentalHealth';
 import UXResearch from './Components/Projects/UXResearch';
-import TornadoSimulation from './Components/Projects/TornadoSimulation';
 import {Routes, Route} from 'react-router-dom';
 import Footer from 'rjs-sticky-footer/Footer';
 import FooterBody from './Components/Footer/FooterBody';
@@ -35,15 +31,6 @@ const App = () => {
       description: "Android App that tracks the user's location as they move and shows markings of all tracked locations on a map."
     },
     {
-      name: "Tableau Visualizations",
-      id: "tableauvisualizations",
-      url: "/tableau-visualizations",
-      image: "tableauvisualizations.jpg",
-      category: "Interpretive",
-      component: TableauVisualizations,
-      description: "Showcase of two data visualizations made with Tableau."
-    },
-    {
       name: "Memory Chef",
       id: "memorychef",
       url: "memory-chef",
@@ -51,15 +38,6 @@ const App = () => {
       category: "Technical",
       component: MemoryChef,
       description: "Desktop Game that has players memorize a pizza order under a timer and then create that pizza from scratch."
-    },
-    {
-      name: "Realistic Tornado Simulation Visualization",
-      id: "tornadosimulationvisualization",
-      url: "/tornado-simulation-visualization",
-      image: "tornadosimulation.jpg",
-      category: "Creative",
-      component: TornadoSimulation,
-      description: "Realistic Tornado Simulation Animation."
     },
     {
       name: "Zamioculcas Zamiifolia",
@@ -78,24 +56,6 @@ const App = () => {
       category: "Interpretive",
       component: UXResearch,
       description: "Craigslist Redesign User Experience Research Project"
-    },
-    {
-      name: "BadFellas",
-      id: "badfellas",
-      url: "/badfellas",
-      image: "badfellas.jpg",
-      category: "Creative",
-      component: BadFellas,
-      description: "Parody and image manipulation of the GoodFellas movie poster."
-    },
-    {
-      name: "Mental Health Resources at Purdue University",
-      id: "mentalhealthpurdue",
-      url: "/mental-health-purdue",
-      image: "mentalhealthpurdue.jpg",
-      category: "Interpretive",
-      component: MentalHealth,
-      description: "White Paper analyzing why college students need mental health help more than others during the pandemic, the problems that exist within Purdue University's mental health resources, what other mental health resources offer that Purdue does not, and how Purdue University can improve their mental health resources."
     }];
 
   return (
