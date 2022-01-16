@@ -7,7 +7,7 @@ const Cards = (props)=> {
 	return (
 			<div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", margin: "2%", justifyContent: "center"}}> 
 				{proj.map((project) => (
-					<div style={{ display: "flex", flexDirection: "row", margin: "2%" }}> 
+					<div key = {project.id} style={{ display: "flex", flexDirection: "row", margin: "2%" }}> 
 						<IndividualCard 
 						key = {project.id}
 						id = {project.id}
@@ -15,6 +15,7 @@ const Cards = (props)=> {
 						name = {project.name}
 						category = {project.category}
 						description = {project.description}
+						url = {project.url}
 						/>
 						</div>
 				
