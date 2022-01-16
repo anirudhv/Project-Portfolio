@@ -1,6 +1,6 @@
 import React from 'react';
 import IndividualCard from './IndividualCard/IndividualCard';
-
+//UMD
 const Cards = (props)=> {
 	console.log(props.projects);
 	const proj = Array.from(props.projects);
