@@ -10,7 +10,7 @@ import UXResearch from './Components/Projects/UXResearch';
 import {Routes, Route} from 'react-router-dom';
 import Footer from 'rjs-sticky-footer/Footer';
 import FooterBody from './Components/Footer/FooterBody';
-//UW
+//USC
 const App = () => {
   const projectList = [{
       name: "Culinary Clicks",
