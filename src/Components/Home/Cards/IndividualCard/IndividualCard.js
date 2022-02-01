@@ -5,7 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import {useNavigate} from 'react-router-dom';
-//USC
+//UW Madison
 const IndividualCard = (props) => {
 	let navigate = useNavigate();
 	const doOnClick = (url) => {

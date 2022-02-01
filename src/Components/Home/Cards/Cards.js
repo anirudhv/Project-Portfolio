@@ -1,6 +1,6 @@
 import React from 'react';
 import IndividualCard from './IndividualCard/IndividualCard';
-//USC
+//UW Madison
 const Cards = (props)=> {
 	console.log(props.projects);
 	const proj = Array.from(props.projects);

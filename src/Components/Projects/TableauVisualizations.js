@@ -1,6 +1,6 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
-//USC
+//UW Madison
 const TableauVisualizations = (props) => (
 	<>
 		<Typography variant = "h4" gutterBottom component = "div">

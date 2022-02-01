@@ -10,7 +10,7 @@ import UXResearch from './Components/Projects/UXResearch';
 import {Routes, Route} from 'react-router-dom';
 import Footer from 'rjs-sticky-footer/Footer';
 import FooterBody from './Components/Footer/FooterBody';
-//USC
+//UW Madison
 const App = () => {
   const projectList = [{
       name: "Culinary Clicks",
@@ -38,24 +38,6 @@ const App = () => {
       category: "Technical",
       component: MemoryChef,
       description: "Desktop Game that has players memorize a pizza order under a timer and then create that pizza from scratch."
-    },
-    {
-      name: "Zamioculcas Zamiifolia",
-      id: "zamioculcaszamiifolia",
-      url: "/zamioculcas-zamiifolia",
-      image: "zamioculcaszamiifolia.jpg",
-      category: "Creative",
-      component: ZamioculcasZamiifolia,
-      description: "3D Model of the Zamioculcas Zamiifolia plant."
-    },
-    {
-      name: "UX Research",
-      id: "uxresearch",
-      url: "/ux-research",
-      image: "uxresearch.jpg",
-      category: "Interpretive",
-      component: UXResearch,
-      description: "Craigslist Redesign User Experience Research Project"
     }];
 
   return (
