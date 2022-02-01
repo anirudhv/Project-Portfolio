@@ -38,6 +38,15 @@ const App = () => {
       category: "Technical",
       component: MemoryChef,
       description: "Desktop Game that has players memorize a pizza order under a timer and then create that pizza from scratch."
+    },
+    {
+      name: "Realistic Tornado Simulation Visualization",
+      id: "tornadosimulationvisualization",
+      url: "/tornado-simulation-visualization",
+      image: "tornadosimulation.jpg",
+      category: "Creative",
+      component: TornadoSimulation,
+      description: "Realistic Tornado Simulation Animation."
     }];
 
   return (
