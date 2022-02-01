@@ -7,7 +7,7 @@ import LocationTracker from './Components/Projects/LocationTracker';
 import ZamioculcasZamiifolia from './Components/Projects/ZamioculcasZamiifolia';
 import MemoryChef from './Components/Projects/MemoryChef';
 import UXResearch from './Components/Projects/UXResearch';
-import tornadosimulationvisualization from './Components/Projects/TornadoSimulation';
+import TornadoSimulation from './Components/Projects/TornadoSimulation';
 import {Routes, Route} from 'react-router-dom';
 import Footer from 'rjs-sticky-footer/Footer';
 import FooterBody from './Components/Footer/FooterBody';
