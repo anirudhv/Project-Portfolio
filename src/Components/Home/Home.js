@@ -3,7 +3,7 @@ import Dropdowns from './Dropdowns/Dropdowns';
 import Typography from '@mui/material/Typography';
 import Cards from './Cards/Cards';
 import { orderBy, shuffle, isEmpty } from 'lodash';
-//Purdue
+//Georgia Tech
 const Home = (props) => {
 	const projectList = props.proj;
 	const [projects, setProjects] = useState(projectList);

@@ -5,7 +5,7 @@ import ButtonGroup from '@mui/material/ButtonGroup';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
-//Purdue
+//Georgia Tech
 const MemoryChef = (props) => (
 	<>
 		<Typography variant = "h4" gutterBottom component = "div">

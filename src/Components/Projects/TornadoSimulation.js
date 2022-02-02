@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-//Purdue
+//Georgia Tech
 const TornadoSimulation = (props) => (
 	<>
 		<Typography variant = "h4" gutterBottom component = "div">

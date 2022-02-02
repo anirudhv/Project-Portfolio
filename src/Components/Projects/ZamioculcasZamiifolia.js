@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-//Purdue
+//Georgia Tech
 const ZamioculcasZamiifolia = (props) => (
 	<>
 		<Typography variant = "h4" gutterBottom component = "div">

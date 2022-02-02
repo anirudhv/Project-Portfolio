@@ -11,7 +11,7 @@ import TornadoSimulation from './Components/Projects/TornadoSimulation';
 import {Routes, Route} from 'react-router-dom';
 import Footer from 'rjs-sticky-footer/Footer';
 import FooterBody from './Components/Footer/FooterBody';
-//Purdue
+//Georgia Tech
 const App = () => {
   const projectList = [{
       name: "Culinary Clicks",
@@ -39,15 +39,6 @@ const App = () => {
       category: "Technical",
       component: MemoryChef,
       description: "Desktop Game that has players memorize a pizza order under a timer and then create that pizza from scratch."
-    },
-    {
-      name: "Realistic Tornado Simulation Visualization",
-      id: "tornadosimulationvisualization",
-      url: "/tornado-simulation-visualization",
-      image: "tornadosimulation.jpg",
-      category: "Creative",
-      component: TornadoSimulation,
-      description: "Realistic Tornado Simulation Animation."
     }];
 
   return (
