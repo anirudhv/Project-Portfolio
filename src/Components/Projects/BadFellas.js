@@ -1,6 +1,6 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
-//Georgia Tech
+//SJSU
 const BadFellas = (props) => (
 	<>
 		<Typography variant = "h4" gutterBottom component = "div">
