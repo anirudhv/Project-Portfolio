@@ -8,7 +8,7 @@ import ZamioculcasZamiifolia from './Components/Projects/ZamioculcasZamiifolia';
 import MemoryChef from './Components/Projects/MemoryChef';
 import UXResearch from './Components/Projects/UXResearch';
 import BadFellas from './Components/Projects/BadFellas';
-import Mental from './Components/Projects/MentalHealth';
+import MentalHealth from './Components/Projects/MentalHealth';
 import TableauVisualizations from './Components/Projects/TableauVisualizations';
 import TornadoSimulation from './Components/Projects/TornadoSimulation';
 import {Routes, Route} from 'react-router-dom';
