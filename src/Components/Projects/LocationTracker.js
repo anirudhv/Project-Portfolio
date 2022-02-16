@@ -5,7 +5,7 @@ import ButtonGroup from '@mui/material/ButtonGroup';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
-//SJSU
+//RIT
 const LocationTracker = (props) => (
 	<>
 		<Typography variant = "h4" gutterBottom component = "div">
